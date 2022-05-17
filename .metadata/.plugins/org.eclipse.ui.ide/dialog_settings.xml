@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Yesii\Downloads\AspiradoraAgent_Solucion"/>
+			<item value="C:\Users\Yesii\OneDrive\Documentos\Inteligencia Artificial\faia-examples-0.4.2 (1)"/>
+			<item value="C:\Users\Yesii\OneDrive\Documentos\Inteligencia Artificial\faia-0.4.2 (1)"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Yesii\Downloads\Copia de IA-TP1-Grupo15-Furlan-Wernly\IA-TP1"/>
+			<item value="C:\Users\Yesii\eclipse-workspace\PlantsVsZombie"/>
+			<item value="C:\Users\Yesii\Downloads\TP Busqueda  - Grupo 3"/>
+			<item value="C:\Users\Yesii\eclipse-workspace\faia-examples-0.4.2 (1)\examples"/>
+			<item value="C:\Users\Yesii\eclipse-workspace\faia-0.4.2 (1).zip_expanded"/>
+			<item value="C:\Users\Yesii\Downloads\IA-master"/>
+			<item value="C:\Users\Yesii\eclipse-workspace\AspiradoraAgent_Solucion\Aspiradora"/>
+			<item value="C:\Users\Yesii\Downloads\AspiradoraAgent_Solucion\Aspiradora"/>
+			<item value="C:\Users\Yesii\eclipse-workspace\InteligenciaArtificial\PlantsVsZombies"/>
+			<item value="C:\Users\Yesii\eclipse-workspace\IA\PlantsVsZombies"/>
+			<item value="C:\Users\Yesii\eclipse-workspace\InteligenciaArtificial"/>
+		</list>
+	</section>
+</section>

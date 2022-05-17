@@ -1,0 +1,21 @@
+package frsf.cidisi.exercise.plantsVsZombies.search;
+
+import frsf.cidisi.faia.agent.search.GoalTest;
+import frsf.cidisi.faia.state.AgentState;
+
+public class ObjetivoPlanta extends GoalTest {
+
+    @Override
+    public boolean isGoalState(AgentState agentState) {
+    	
+    	EstadoPlanta estadoPlanta = (EstadoPlanta) agentState;
+    	int row = estadoPlanta.getRowPosition();
+    	int col =estadoPlanta.getColumnPosition();
+    	
+    	System.out.println("   hay zombies   "+estadoPlanta.getContadorZombie()+
+    			"\n---row "+row+"---col "+col+"  -   "+estadoPlanta.hayZombie(row,col)
+    			+"\n\n en toda la grilla"+!estadoPlanta.isNoMoreZombie()+"\n");
+    	return (estadoPlanta.getCantidadSol()<=4);
+
+    }
+}

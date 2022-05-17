@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;PacmanSearchMain.java&apos; to &apos;PlantsVsZombies/src/frsf.cidisi.exercise.plantsVsZombies.search&apos;&#x0D;&#x0A;- Original project: &apos;examples&apos;&#x0D;&#x0A;- Destination element: &apos;PlantsVsZombies/src/frsf.cidisi.exercise.plantsVsZombies.search&apos;&#x0D;&#x0A;- Original element: &apos;frsf.cidisi.faia.examples.search.pacman.PacmanSearchMain.java&apos;" description="Copy compilation unit" destination="=PlantsVsZombies/src&lt;frsf.cidisi.exercise.plantsVsZombies.search" element1="/src&lt;frsf.cidisi.faia.examples.search.pacman{PacmanSearchMain.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1650312533883" units="1" version="1.0"/>
+</session>

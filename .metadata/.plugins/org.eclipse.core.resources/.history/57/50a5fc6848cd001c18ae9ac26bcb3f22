@@ -1,0 +1,79 @@
+package frsf.cidisi.faia.G15TP1.actions;
+
+import frsf.cidisi.faia.G15TP1.*;
+import frsf.cidisi.faia.agent.search.SearchAction;
+import frsf.cidisi.faia.agent.search.SearchBasedAgentState;
+import frsf.cidisi.faia.state.AgentState;
+import frsf.cidisi.faia.state.EnvironmentState;
+
+public class TomarDulce extends SearchAction {
+
+    /**
+     * This method updates a tree node state when the search process is running.
+     * It does not updates the real world state.
+     */
+	
+   @Override
+    public SearchBasedAgentState execute(SearchBasedAgentState s) {
+        EstadoCaperucita caperucitaState = (EstadoCaperucita) s;
+
+        int row = caperucitaState.getRowPosition();
+        int col = caperucitaState.getColumnPosition();
+        
+        //Precondicion: la posicion de caperucita tiene que tener un caramelo
+        if (caperucitaState.getBosquePosition(row,col) == PercepcionCaperucita.PERCEPCION_CARAMELO) {
+        	        	
+            //dejar sin caramelo la posicion donde esta caperucita
+        	caperucitaState.setBosquePosition(row, col, PercepcionCaperucita.PERCEPCION_LIBRE);
+        	//incrementar los caramelos de caperucita
+        	caperucitaState.incrementarDulces();
+        	System.out.println("\n   -----   "+caperucitaState+"\n");
+            return caperucitaState;
+        }
+        
+        return null;
+    }
+
+    /**
+     * This method updates the agent state and the real world state.
+     */
+    @Override
+    public EnvironmentState execute(AgentState ast, EnvironmentState est) {
+
+		Tablero table = new Tablero();
+
+    	EstadoBosque environmentState = (EstadoBosque) est;
+        EstadoCaperucita caperucitaState = ((EstadoCaperucita) ast);
+
+        int row = environmentState.getPosicionCaperucita()[0];
+        int col = environmentState.getPosicionCaperucita()[1];
+        
+        //Precondicion: la posicion de caperucita tiene que tener un caramelo
+        if (environmentState.getBosque()[row][col] == PercepcionCaperucita.PERCEPCION_CARAMELO) {
+            
+        	//Actualizar ambiente
+            environmentState.setBosque(row, col, PercepcionCaperucita.PERCEPCION_LIBRE);
+            environmentState.incrementarDulcesCaperucita();
+            
+            //Actualizar estado de caperucita
+            caperucitaState.setBosquePosition(row, col, PercepcionCaperucita.PERCEPCION_LIBRE);
+            caperucitaState.incrementarDulces();
+ 
+            table.dibujar(environmentState.getPosLobo()[0], environmentState.getPosLobo()[1], environmentState.getPosicionCaperucita()[0], environmentState.getPosicionCaperucita()[1], environmentState.getBosque());
+        	System.out.println("\n  AMBIENTE -----   "+environmentState+"\n");
+            return environmentState;
+        }
+
+        return null;
+    }
+
+    @Override
+    public Double getCost() {
+        return new Double(0);
+    }
+
+    @Override
+    public String toString() {
+        return "TomarDulce";
+    }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="domain.Grilla"/>
+    <fullyQualifiedTypeName name="frsf.cidisi.exercise.plantsVsZombies.search.EstadoPlansVsZombies"/>
+    <fullyQualifiedTypeName name="frsf.cidisi.exercise.plantsVsZombies.search.EstadoAmbiente"/>
+    <fullyQualifiedTypeName name="frsf.cidisi.exercise.plantsVsZombies.search.actions.IrDerecha"/>
+    <fullyQualifiedTypeName name="frsf.cidisi.exercise.plantsVsZombies.search.actions.Limpiar"/>
+    <fullyQualifiedTypeName name="frsf.cidisi.exercise.plantsVsZombies.search.actions.IrIzquierda"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="frsf.cidisi.exercise.plantsVsZombies.search.Zombie"/>
+</qualifiedTypeNameHistroy>

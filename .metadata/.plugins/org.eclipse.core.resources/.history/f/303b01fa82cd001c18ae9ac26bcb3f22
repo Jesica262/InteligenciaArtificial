@@ -1,0 +1,18 @@
+package frsf.cidisi.exercise.plantsVsZombies.search;
+
+import frsf.cidisi.faia.agent.search.GoalTest;
+import frsf.cidisi.faia.state.AgentState;
+
+public class ObjetivoPlanta extends GoalTest {
+
+    @Override
+    public boolean isGoalState(AgentState agentState) {
+    	
+    	EstadoPlanta estadoPlanta = (EstadoPlanta) agentState;
+    	
+    	System.out.println(" \n ---- "+(estadoPlanta.getContadorZombie())+" .. "+(estadoPlanta.getCantidadSol()>0)+"\n");
+    	
+    	return (estadoPlanta.getContadorZombie() == 1 && estadoPlanta.getCantidadSol()>0 );
+
+    }
+}
