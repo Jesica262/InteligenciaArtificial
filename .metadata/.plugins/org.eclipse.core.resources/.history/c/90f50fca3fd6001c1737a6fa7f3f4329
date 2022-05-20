@@ -1,0 +1,34 @@
+package frsf.cidisi.exercise.plantsVsZombies.search;
+
+import frsf.cidisi.faia.agent.search.GoalTest;
+import frsf.cidisi.faia.state.AgentState;
+
+public class ObjetivoPlanta extends GoalTest {
+
+    @Override
+    public boolean isGoalState(AgentState agentState) {
+    	
+    	EstadoPlanta estadoPlanta = (EstadoPlanta) agentState;
+<<<<<<< HEAD
+    	
+    	if(estadoPlanta.getColumnPosition()==8)
+    	{
+    		return true;
+    	}
+    return false;
+ 
+=======
+    	if (estadoPlanta.getContadorZombie()== estadoPlanta.getZombieTotal())
+    	{
+    		return true;
+    	}
+    	else if (estadoPlanta.isAllmatrizKnown())
+    	{
+    		return true;
+    	}
+    
+    	return false;
+>>>>>>> c4cbb368079cece6fab8862d9fca81d6133b7c2e
+    }
+}
+

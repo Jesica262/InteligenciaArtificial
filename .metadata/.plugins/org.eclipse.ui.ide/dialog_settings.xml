@@ -7,6 +7,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Yesii\eclipse-workspace\PlantsVsZombie"/>
 			<item value="C:\Users\Yesii\Downloads\AspiradoraAgent_Solucion"/>
 			<item value="C:\Users\Yesii\OneDrive\Documentos\Inteligencia Artificial\faia-examples-0.4.2 (1)"/>
 			<item value="C:\Users\Yesii\OneDrive\Documentos\Inteligencia Artificial\faia-0.4.2 (1)"/>
@@ -21,6 +22,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Yesii\Downloads\TpIA2022-feature-entrega"/>
+			<item value="C:\Users\Yesii\eclipse-workspace\TpIA2022"/>
 			<item value="C:\Users\Yesii\Downloads\Copia de IA-TP1-Grupo15-Furlan-Wernly\IA-TP1"/>
 			<item value="C:\Users\Yesii\eclipse-workspace\PlantsVsZombie"/>
 			<item value="C:\Users\Yesii\Downloads\TP Busqueda  - Grupo 3"/>
